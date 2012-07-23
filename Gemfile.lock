@@ -34,6 +34,9 @@ GEM
     builder (2.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
+    ey_config (0.0.6)
+    ffi (1.1.0)
+    ffi (1.1.0-java)
     i18n (0.5.0)
     jdbc-mysql (5.1.13)
     jdbc-postgres (9.0.801)
@@ -52,6 +55,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.16)
     mysql2 (0.2.13)
+    newrelic_rpm (3.4.0.1)
     pg (0.13.2)
     polyglot (0.3.2)
     puma (1.2.1)
@@ -104,12 +108,15 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-jdbc-adapter
+  ey_config
+  ffi
   jdbc-mysql
   jdbc-postgres
   jdbc-sqlite3
   jquery-rails (= 1.0.14)
   jruby-openssl
   mysql2 (~> 0.2.7)
+  newrelic_rpm
   pg (~> 0.13.2)
   puma
   rails (= 3.0.9)
