@@ -7,6 +7,7 @@ gem 'jquery-rails', '1.0.14'
 gem 'ffi'
 gem 'newrelic_rpm'
 gem 'ey_config'
+gem 'unicorn'
 
 platform :ruby do
   gem 'mysql2', '~> 0.2.7'
