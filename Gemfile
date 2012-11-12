@@ -8,6 +8,7 @@ gem 'ffi'
 gem 'newrelic_rpm'
 gem 'ey_config'
 gem 'unicorn'
+gem 'redis'
 
 platform :ruby do
   gem 'mysql2', '~> 0.2.7'
