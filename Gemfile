@@ -1,6 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.9'
+gem 'bundler', '~> 1.3.4'
 
 gem 'simple_form', '1.5.1'
 gem 'jquery-rails', '1.0.14'
